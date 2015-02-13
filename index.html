@@ -5,8 +5,9 @@
 body {margin: 0;}
 
 dt{
- 	width: 15%;
+ 	width: 76px;
  	float: left;
+ 	margin-right: 5px;
  }
  dl{
  	margin-bottom: 5px;
@@ -64,7 +65,7 @@ input#search1 {
 }
 
 #body input {
- 	width: 84%;
+ 	width: 414px;
  }
  #header-bell {
  	float: right;
@@ -73,7 +74,25 @@ input#search1 {
 	top: 25px;
 	outline: none;
 }
- }
+
+#navigation {
+	white-space: nowrap;
+	width: 960px;
+	height: 32px;
+	background-color: #E6E6E6;
+} 
+#navigation-inner {
+	position: absolute;
+	left: 12px;
+	top: 65px;
+	font-family: 'ArialMT', 'Arial';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	line-height: normal;
+	cursor: pointer;
+}
 </style>
 
 </head>
@@ -91,16 +110,21 @@ input#search1 {
 			<span style="font-size: 13px;font-weight: 400;position: absolute;left: 888px;top: 27px;color: rgb(153, 0, 0);cursor: pointer">Log out</span>
 		</div>
 	</div>
+	<div id="navigation">
+		<div id="navigation-inner">
+			<p><span>My Collections &gt; Math &gt; Math Mammoth &gt; Editing</span></p>
+		</div>	
+	</div>
 		<div id="main-container">
 			<div id="body">
 				<h2>Math Mammoth</h2>
 				<dl>
 					<dt>Description</dt>
-					<dd><textarea style="width:84%;height:60px" ></textarea></dd>
+					<dd><textarea style="width:414px;height:60px" ></textarea></dd>
 				</dl>
 				<dl>
 					<dt>Subject</dt>
-					<dd><select name="Choose Subject" style="width:84%">
+					<dd><select name="Choose Subject" style="width:414px">
 					<option value="Language">Language</option>
 					<option value="-Estonian">-Estonian</option>
 					<option value="-Literature">-Literature</option>
