@@ -1,0 +1,123 @@
+<html>
+<head>
+<style>
+
+body {margin: 0;}
+
+dt{
+ 	width: 15%;
+ 	float: left;
+ }
+ dl{
+ 	margin-bottom: 5px;
+ }
+
+
+
+ #container {
+ 	width: 960px;
+ }
+
+ #header {
+ 	background-color: #ccc;
+ 	height: 70px;
+ 	font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+ }
+ #header h1{
+ 	position: absolute;
+ 	top: 5px;
+ 	cursor: pointer;
+ 	left: 10px;
+ 	float: left;
+
+ }
+#header-right {
+	float: right;
+	width: 400px;
+
+}
+#search {
+	position: absolute;
+	top: 20px;
+}
+input#search1 {
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	font-family: 'ArialMT', 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000000;
+	text-align: left;
+}
+ #search-button {
+ 	position: absolute;
+ 	left: 184px;
+ }
+
+#body {
+	width: 600px;
+	background-color: #ececec;
+	padding: 0px 10px;
+}
+
+#body input {
+ 	width: 84%;
+ }
+ #header-bell {
+ 	float: right;
+	position: absolute;
+	left: 809px;
+	top: 25px;
+	outline: none;
+}
+ }
+</style>
+
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>LearnMixer</h1>
+		<div id="header-right">
+			<div id="search" >
+				<input type="text" name="search1" id="search1"/>
+				<input type="submit" value="Search" id="search-button"/>
+			</div >
+			<div id="header-bell"><img src="images/u405.png" width="20px" height="20px" /> </div>
+
+		</div>
+	</div>
+		<div id="main-container">
+			<div id="body">
+				<h2>Math Mammoth</h2>
+				<dl>
+					<dt>Description</dt>
+					<dd><textarea style="width:84%;height:60px" ></textarea></dd>
+				</dl>
+				<dl>
+					<dt>Subject</dt>
+					<dd><select name="Choose Subject" style="width:84%">
+					<option value="Language">Language</option>
+					<option value="-Estonian">-Estonian</option>
+					<option value="-Literature">-Literature</option>
+					<option value="-Russian">-Russian</option>
+					<option value="Foreign">Foreign</option></select></dd>
+				</dl>
+				<dl>
+					<dt>Topic</dt>
+					<dd><input type="text"> </dd>
+				</dl>
+			</div>
+
+		</div>
+</div>
+
+
+</body>
+</html>
+
+
+
